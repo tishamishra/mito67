@@ -3,8 +3,14 @@
 ## Instructions
 Use this prompt to completely rebrand and migrate the Mitolyn website to a new brand/domain. Simply replace `[NEW_DOMAIN]` and `[NEW_BRAND_NAME]` with your new domain and brand name, then follow all steps.
 
-**New Domain:** `[NEW_DOMAIN]` (e.g., https://example-product.com)  
-**New Brand Name:** `[NEW_BRAND_NAME]` (e.g., MetaboSlim)
+**New Domain:** `[NEW_DOMAIN]` (e.g., mtolyn.store)  
+**New Brand Name:** `[NEW_BRAND_NAME]` (e.g., Mitolyn)
+
+**IMPORTANT: Brand Name Capitalization Rules**
+- **Capitalize** at the START of sentences: "Mitolyn delivers..."
+- **Lowercase** in the MIDDLE of sentences: "...with Mitolyn's formula..."
+- **Lowercase** in alt text, attributes, and technical references
+- **Always capitalize** in titles and headings
 
 ---
 
@@ -42,6 +48,26 @@ Replace all occurrences of "Mitolyn" with `[NEW_BRAND_NAME]` throughout the code
 - `src/app/layout.tsx`
 - `src/components/StructuredData.tsx`
 
+### Capitalization Rules:
+- **Capitalize** at sentence starts: "Mitolyn is a..."
+- **Lowercase** in middle: "...with Mitolyn's formula..."
+- **Lowercase** in alt text: `alt="mitolyn supplement"`
+- **Capitalize** in titles: "Mitolyn Official"
+
+### Fix Capitalization Commands:
+```bash
+# Fix capitalization after periods
+find src/app -name "*.tsx" -type f -exec sed -i '' 's/\. mitolyn/. Mitolyn/g' {} \;
+
+# Fix capitalization after exclamation marks
+find src/app -name "*.tsx" -type f -exec sed -i '' 's/! mitolyn/! Mitolyn/g' {} \;
+
+# Fix capitalization after question marks
+find src/app -name "*.tsx" -type f -exec sed -i '' 's/? mitolyn/? Mitolyn/g' {} \;
+
+# Fix paragraph starts (manual review needed)
+```
+
 **Note:** Keep the brand name consistent - use `[NEW_BRAND_NAME]` everywhere, including:
 - Page titles
 - Meta descriptions
@@ -59,11 +85,14 @@ Update all SEO metadata to be unique but similar in structure:
 
 **Current Title:** "Mitolyn™ Official | Metabolism Booster & Fat Burner"  
 **New Title:** "[NEW_BRAND_NAME]™ Official | [Unique Value Proposition]"
+- **Keep under 60 characters**
 
 **Current Description:** "Mitolyn official site - premium metabolism booster and fat burner. Discover benefits, read reviews, and purchase Mitolyn for weight loss support and enhanced energy."  
-**New Description:** "[NEW_BRAND_NAME] official site - [unique description with different wording but same intent]. Discover benefits, read reviews, and purchase [NEW_BRAND_NAME] for [unique benefit statement]."
+**New Description:** "[NEW_BRAND_NAME] official site - [unique description with different wording but same intent]. Explore benefits, reviews, and order [NEW_BRAND_NAME] for weight management and vitality."
+- **Keep under 160 characters**
+- **Use 30-40% different wording**
 
-**Keywords:** Update keywords to include `[NEW_BRAND_NAME]` and variations, remove "mitolyn" references
+**Keywords:** Update keywords to include `[NEW_BRAND_NAME]` and variations, remove old brand references
 
 ### Update All Page Metadata:
 - Privacy Policy page
@@ -79,7 +108,7 @@ Update all SEO metadata to be unique but similar in structure:
 
 ## STEP 4: Content Uniqueness (Rewrite Content)
 
-Update all content to start with `[NEW_BRAND_NAME]` and use different wording:
+Update all content to start with `[NEW_BRAND_NAME]` (capitalized) and use different wording:
 
 ### Key Components to Update:
 
@@ -87,38 +116,43 @@ Update all content to start with `[NEW_BRAND_NAME]` and use different wording:
    - Rewrite the main description with different wording
    - Keep the same structure but change sentence construction
    - Update heading to use `[NEW_BRAND_NAME]`
+   - Change background gradient colors
 
 2. **WhatIsMitolyn Component** (`src/components/WhatIsMitolyn.tsx`):
    - Rename component to `WhatIs[NEW_BRAND_NAME]` (optional)
-   - Rewrite all paragraphs starting with `[NEW_BRAND_NAME]`
+   - Rewrite all paragraphs starting with `[NEW_BRAND_NAME]` (capitalized)
    - Use synonyms and different sentence structures
+   - Change section background color
 
 3. **HowItWorks Component** (`src/components/HowItWorks.tsx`):
    - Rewrite all bullet points with different wording
    - Keep the same information but change phrasing
+   - Ensure `[NEW_BRAND_NAME]` is capitalized at sentence starts
 
 4. **Benefits Component** (`src/components/Benefits.tsx`):
    - Rewrite all benefit descriptions
    - Use different adjectives and phrasing
+   - Ensure `[NEW_BRAND_NAME]` is capitalized at sentence starts
 
 5. **Ingredients Component** (`src/components/Ingredients.tsx`):
    - Keep ingredients the same (if applicable)
    - Rewrite descriptions with different wording
-   - Update all references to `[NEW_BRAND_NAME]`
+   - Update all references to `[NEW_BRAND_NAME]` (capitalized at starts)
 
 6. **Reviews Component** (`src/components/Reviews.tsx`):
    - Update customer names and locations (make them unique)
    - Rewrite review text with different wording
-   - Change weight loss numbers slightly (e.g., 35 lbs → 32 lbs, 29 lbs → 28 lbs)
+   - Change weight loss numbers slightly (e.g., 35 lbs → 32 lbs, 29 lbs → 27 lbs)
+   - Change section background color
 
 7. **FAQ Component** (`src/components/FAQ.tsx`):
    - Rewrite all questions and answers
    - Keep same topics but different wording
-   - Ensure all answers start with `[NEW_BRAND_NAME]`
+   - Ensure all answers start with `[NEW_BRAND_NAME]` (capitalized)
 
 8. **All Policy Pages:**
    - Rewrite content to be unique
-   - Update all references to `[NEW_BRAND_NAME]`
+   - Update all references to `[NEW_BRAND_NAME]` (capitalized at sentence starts)
    - Change wording while maintaining legal accuracy
 
 ---
@@ -127,25 +161,31 @@ Update all content to start with `[NEW_BRAND_NAME]` and use different wording:
 
 Make subtle design changes to differentiate from original:
 
-### Color Scheme Updates:
+### Color Scheme Updates (Actual Changes Made):
+
 1. **Hero Section Background:**
-   - Current: `linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%)`
-   - New: Change to different blue shades or different color entirely (e.g., purple gradient, teal gradient)
+   - **Old:** `linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%)` (blue)
+   - **New:** `linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%)` (purple)
 
 2. **Header/Navbar:**
-   - Current: `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`
-   - New: Use different gradient colors
+   - **Old:** `linear-gradient(135deg, #667eea 0%, #764ba2 100%)` (purple)
+   - **New:** `linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%)` (cyan/teal)
 
 3. **Section Backgrounds:**
-   - Review section: Change from `#1098b7` to a different color
-   - Other sections: Adjust background colors slightly
+   - **Reviews section:** `#1098b7` → `#ec4899` (pink)
+   - **ScientificDiscovery:** `#1098b7` → `#a855f7` (purple)
+   - **Guarantee:** `#1098b7` → `#ec4899` (pink)
+   - **ActNow:** `#1098b7` → `#ec4899` (pink)
+   - **Bonuses:** `#1098b7` → `#8b5cf6` (purple)
+   - **WhatIsMitolyn:** `#1098b7` → `#8b5cf6` (purple)
+   - **WhyChoose:** `linear-gradient(135deg, #667eea 0%, #764ba2 100%)` → `linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%)`
 
 ### Typography:
-- Keep Arial but adjust font weights or sizes slightly
-- Change heading sizes by 1-2px
+- Keep Arial, maintain font sizes/weights
+- Ensure consistent `fontFamily: 'Arial, sans-serif'` throughout
 
 ### Spacing:
-- Adjust padding/margins slightly (e.g., `py-6` → `py-8`, `gap-4` → `gap-5`)
+- Keep existing padding/margins (no changes needed)
 
 ---
 
@@ -153,12 +193,12 @@ Make subtle design changes to differentiate from original:
 
 ### Update Image References:
 1. Check all image URLs in components
-2. If using ImageKit or CDN, update paths to new brand folder
-3. Update alt text to use `[NEW_BRAND_NAME]`
+2. If using ImageKit or CDN, update paths to new brand folder (if applicable)
+3. Update alt text to use `[NEW_BRAND_NAME]` (lowercase in alt text)
 4. Update logo references in Header component
 
 ### Favicon:
-- Update favicon URL in `src/app/layout.tsx`
+- Update favicon URL in `src/app/layout.tsx` (if needed)
 - Ensure new favicon is uploaded and accessible
 
 ---
@@ -171,13 +211,14 @@ Make subtle design changes to differentiate from original:
 3. Update logo URL
 4. Update product name in schema
 5. Update all brand references
+6. Rewrite FAQ schema content with different wording
 
 ---
 
 ## STEP 8: Remove Old Brand Traces
 
 ### Search and Remove:
-1. Any hardcoded "Mitolyn" text (except in this migration guide)
+1. Any hardcoded old brand text (except in this migration guide)
 2. Old domain references
 3. Old brand-specific image paths
 4. Old analytics IDs (if any)
@@ -189,8 +230,8 @@ Make subtle design changes to differentiate from original:
 
 ### In `src/app/layout.tsx`:
 1. **Bing Verification:**
-   - Remove old: `<meta name="msvalidate.01" content="DF238DB2B8BB655EFD6CF96236274D79" />`
-   - Add new Bing verification code for new domain
+   - Keep or update: `<meta name="msvalidate.01" content="DF238DB2B8BB655EFD6CF96236274D79" />`
+   - Or add new Bing verification code for new domain
 
 2. **Google Analytics:**
    - Update Google Analytics ID if present
@@ -228,8 +269,12 @@ For maximum uniqueness, consider renaming components:
 Before deploying, verify:
 
 - [ ] All domain URLs updated
-- [ ] All "Mitolyn" references replaced with `[NEW_BRAND_NAME]`
+- [ ] All old brand references replaced with `[NEW_BRAND_NAME]`
+- [ ] Brand name capitalized at sentence starts
+- [ ] Brand name lowercase in middle of sentences
 - [ ] SEO metadata updated and unique
+- [ ] Title under 60 characters
+- [ ] Description under 160 characters
 - [ ] All content rewritten (not just find-replace)
 - [ ] Design colors changed
 - [ ] Images updated
@@ -257,6 +302,15 @@ grep -r "Mitolyn" src/
 
 # Find all old brand references (case insensitive)
 grep -ri "mitolyn" src/
+
+# Fix capitalization after periods
+find src/app -name "*.tsx" -type f -exec sed -i '' 's/\. mitolyn/. Mitolyn/g' {} \;
+
+# Fix capitalization after exclamation marks
+find src/app -name "*.tsx" -type f -exec sed -i '' 's/! mitolyn/! Mitolyn/g' {} \;
+
+# Fix capitalization after question marks
+find src/app -name "*.tsx" -type f -exec sed -i '' 's/? mitolyn/? Mitolyn/g' {} \;
 ```
 
 ---
@@ -264,17 +318,20 @@ grep -ri "mitolyn" src/
 ## Example Usage
 
 **Input:**
-- New Domain: `https://metaboslim-pro.com`
-- New Brand: `MetaboSlim`
+- New Domain: `mtolyn.store`
+- New Brand: `Mitolyn`
 
 **Actions:**
-1. Replace `mtolyn-us.us` → `metaboslim-pro.com`
-2. Replace `Mitolyn` → `MetaboSlim`
-3. Update SEO: "MetaboSlim™ Official | Advanced Metabolic Support"
-4. Rewrite all content with MetaboSlim
-5. Change hero gradient to purple tones
-6. Update all verification codes
-7. Deploy and verify
+1. Replace `mtolyn-us.us` → `mtolyn.store`
+2. Replace `Mitolyn` → `Mitolyn` (keep same, but fix capitalization)
+3. Update SEO: "Mitolyn™ Official | Metabolic Support & Weight Management" (55 chars)
+4. Rewrite all content with Mitolyn (capitalized at starts)
+5. Change hero gradient to purple tones (#7c3aed, #a855f7, #c084fc)
+6. Change header to cyan/teal gradient (#0ea5e9, #06b6d4, #14b8a6)
+7. Update section backgrounds to pink/purple
+8. Fix capitalization throughout
+9. Update all verification codes
+10. Deploy and verify
 
 ---
 
@@ -284,13 +341,17 @@ grep -ri "mitolyn" src/
 
 2. **SEO Variation:** Change meta descriptions by 30-40% while keeping the same intent.
 
-3. **Legal Pages:** Privacy Policy, Terms, etc. can be similar but should have unique wording.
+3. **Title/Description Length:** Keep title under 60 characters, description under 160 characters.
 
-4. **Images:** Use different images if possible, or at least update alt text.
+4. **Capitalization:** Brand name should be capitalized at sentence starts, lowercase in middle of sentences.
 
-5. **Testing:** Always test the site after migration to ensure everything works.
+5. **Legal Pages:** Privacy Policy, Terms, etc. can be similar but should have unique wording.
 
-6. **Search Engines:** Submit new sitemap to Google Search Console and Bing Webmaster Tools.
+6. **Images:** Use different images if possible, or at least update alt text.
+
+7. **Testing:** Always test the site after migration to ensure everything works.
+
+8. **Search Engines:** Submit new sitemap to Google Search Console and Bing Webmaster Tools.
 
 ---
 
@@ -306,4 +367,3 @@ grep -ri "mitolyn" src/
 ---
 
 **END OF MIGRATION PROMPT**
-

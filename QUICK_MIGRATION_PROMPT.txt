@@ -3,8 +3,14 @@ COMPLETE WEBSITE REBRANDING & MIGRATION PROMPT
 
 I need to completely rebrand and migrate this website to a new brand and domain. Here are my details:
 
-NEW DOMAIN: [YOUR_NEW_DOMAIN] (e.g., https://example-product.com)
-NEW BRAND NAME: [YOUR_NEW_BRAND_NAME] (e.g., MetaboSlim)
+NEW DOMAIN: [YOUR_NEW_DOMAIN] (e.g., mtolyn.store)
+NEW BRAND NAME: [YOUR_NEW_BRAND_NAME] (e.g., Mitolyn)
+
+IMPORTANT: Brand Name Capitalization Rules
+- Capitalize at the START of sentences: "Mitolyn delivers..."
+- Lowercase in the MIDDLE of sentences: "...with Mitolyn's formula..."
+- Lowercase in alt text, attributes, and technical references
+- Always capitalize in titles and headings
 
 Please perform the following comprehensive changes:
 
@@ -17,13 +23,21 @@ Please perform the following comprehensive changes:
 
 2. BRAND NAME REPLACEMENT:
    - Find and replace ALL occurrences of "Mitolyn" (case-sensitive) with "[YOUR_NEW_BRAND_NAME]"
+   - IMPORTANT: Capitalize at sentence starts, lowercase in middle of sentences
    - Update in ALL component files, page files, and metadata
    - Ensure consistent branding throughout
+   - Fix capitalization: Use sed commands or manual fixes:
+     * After periods: ". mitolyn" → ". Mitolyn"
+     * After exclamation: "! mitolyn" → "! Mitolyn"
+     * After question marks: "? mitolyn" → "? Mitolyn"
+     * At paragraph starts: "mitolyn" → "Mitolyn"
 
 3. SEO UNIQUENESS:
    - Update title: Change "Mitolyn™ Official | Metabolism Booster & Fat Burner" to "[YOUR_NEW_BRAND_NAME]™ Official | [Unique Value Proposition]" with different wording
+   - Keep title under 60 characters
    - Rewrite meta description: Keep same intent but use 30-40% different wording
-   - Update all keywords to include [YOUR_NEW_BRAND_NAME] and remove "mitolyn"
+   - Keep description under 160 characters
+   - Update all keywords to include [YOUR_NEW_BRAND_NAME] and remove old brand references
    - Update all page metadata (Privacy, Terms, etc.) with unique descriptions
 
 4. CONTENT REWRITING (Make Unique):
@@ -37,15 +51,21 @@ Please perform the following comprehensive changes:
    - All Policy Pages: Rewrite content uniquely while maintaining legal accuracy
 
 5. DESIGN DIFFERENTIATION:
-   - Hero Background: Change from blue gradient to different colors (e.g., purple, teal, or different blue shades)
-   - Header/Navbar: Change gradient colors
-   - Section Backgrounds: Adjust colors (Reviews section, etc.)
-   - Typography: Slightly adjust font sizes/weights
-   - Spacing: Adjust padding/margins slightly
+   - Hero Background: Change from blue gradient (#1e40af, #3b82f6, #60a5fa) to purple gradient (#7c3aed, #a855f7, #c084fc)
+   - Header/Navbar: Change from purple gradient (#667eea, #764ba2) to cyan/teal gradient (#0ea5e9, #06b6d4, #14b8a6)
+   - Section Backgrounds: 
+     * Reviews section: Change from #1098b7 to #ec4899 (pink)
+     * ScientificDiscovery: Change to #a855f7 (purple)
+     * Guarantee: Change to #ec4899 (pink)
+     * ActNow: Change to #ec4899 (pink)
+     * Bonuses: Change to #8b5cf6 (purple)
+     * WhatIsMitolyn: Change to #8b5cf6 (purple)
+   - Typography: Keep Arial, maintain font sizes/weights
+   - Spacing: Keep existing padding/margins
 
 6. IMAGES & ASSETS:
-   - Update all image URLs to new brand folder/paths
-   - Update all alt text to use [YOUR_NEW_BRAND_NAME]
+   - Update all image URLs to new brand folder/paths (if applicable)
+   - Update all alt text to use [YOUR_NEW_BRAND_NAME] (lowercase in alt text)
    - Update logo references in Header
    - Update favicon URL in layout.tsx
 
@@ -55,15 +75,15 @@ Please perform the following comprehensive changes:
    - Update logo URL
    - Update product name in schema
    - Update all brand references
+   - Rewrite FAQ schema content with different wording
 
 8. VERIFICATION CODES:
-   - Remove old Bing verification: "DF238DB2B8BB655EFD6CF96236274D79"
-   - Add new Bing verification code for new domain (I'll provide it)
+   - Keep or update Bing verification: "DF238DB2B8BB655EFD6CF96236274D79" (or add new one)
    - Update Google Analytics ID if present
    - Update any other platform verification codes
 
 9. REMOVE OLD TRACES:
-   - Search and remove any remaining "Mitolyn" references
+   - Search and remove any remaining old brand references
    - Remove old domain references
    - Remove old brand-specific paths
    - Clean up any old analytics/verification codes
@@ -74,13 +94,21 @@ Please perform the following comprehensive changes:
     - Verify all canonical URLs updated
     - Test all pages load correctly
     - Verify no old brand traces remain
+    - Check capitalization: All sentence starts should have capitalized brand name
 
 IMPORTANT REQUIREMENTS:
 - Don't just find-replace content - actually REWRITE sentences to avoid duplicate content
 - Make SEO descriptions 30-40% different while keeping same intent
+- Keep title under 60 characters, description under 160 characters
 - Change design colors to differentiate visually
-- Ensure all content starts with [YOUR_NEW_BRAND_NAME] where applicable
+- Ensure all content starts with [YOUR_NEW_BRAND_NAME] (capitalized) where applicable
 - Keep legal pages accurate but uniquely worded
+- Fix capitalization: Brand name should be capitalized at sentence starts
+
+CAPITALIZATION FIXES (Use these commands or manual fixes):
+- sed -i '' 's/\. mitolyn/. Mitolyn/g' src/app/**/*.tsx
+- sed -i '' 's/! mitolyn/! Mitolyn/g' src/app/**/*.tsx
+- sed -i '' 's/? mitolyn/? Mitolyn/g' src/app/**/*.tsx
+- Fix paragraph starts manually in components
 
 Please complete all steps systematically and verify each change.
-
