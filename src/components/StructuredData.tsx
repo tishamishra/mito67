@@ -1,15 +1,15 @@
 export default function StructuredData() {
-  const baseUrl = "https://mtolyn-us.us";
+  const baseUrl = "https://mtolyn.store";
 
   // Product Schema
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Mitolyn",
-    "description": "Mitolyn official website supplement for fat loss and weight loss. Natural dietary supplement that supports mitochondrial health, boosts metabolism, and enhances fat burning.",
+    "name": "mitolyn",
+    "description": "mitolyn official website supplement for weight management and fat reduction. Natural dietary supplement that supports mitochondrial wellness, enhances metabolism, and improves fat utilization.",
     "brand": {
       "@type": "Brand",
-      "name": "Mitolyn"
+      "name": "mitolyn"
     },
     "image": [
       "https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900"
@@ -23,7 +23,7 @@ export default function StructuredData() {
       "availability": "https://schema.org/InStock",
       "seller": {
         "@type": "Organization",
-        "name": "Mitolyn Official"
+        "name": "mitolyn Official"
       }
     },
     "aggregateRating": {
@@ -43,7 +43,7 @@ export default function StructuredData() {
           "@type": "Person",
           "name": "Sarah M."
         },
-        "reviewBody": "Mitolyn has been amazing for my weight loss journey. I've lost 15 pounds in 2 months and have so much more energy."
+        "reviewBody": "mitolyn has been incredible for my weight management journey. I've dropped 15 pounds in 2 months and have significantly more vitality."
       },
       {
         "@type": "Review",
@@ -56,7 +56,7 @@ export default function StructuredData() {
           "@type": "Person",
           "name": "Michael R."
         },
-        "reviewBody": "Best fat loss supplement I've tried. The official Mitolyn website made ordering easy and delivery was fast."
+        "reviewBody": "Top weight management supplement I've tested. The official mitolyn website made purchasing simple and shipping was quick."
       }
     ]
   };
@@ -65,7 +65,7 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Mitolyn Official",
+    "name": "mitolyn Official",
     "url": baseUrl,
     "logo": "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883",
     "contactPoint": {
@@ -80,7 +80,7 @@ export default function StructuredData() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Mitolyn Official",
+    "name": "mitolyn Official",
     "url": baseUrl,
     "potentialAction": {
       "@type": "SearchAction",
@@ -113,34 +113,34 @@ export default function StructuredData() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What is Mitolyn?",
+        "name": "What is mitolyn?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mitolyn is a natural dietary supplement designed to support mitochondrial health, boost metabolism, and enhance fat burning. It's made from plant-based ingredients and helps with weight loss and energy levels."
+          "text": "mitolyn is a natural dietary supplement created to support mitochondrial wellness, enhance metabolism, and improve fat utilization. It's crafted from botanical ingredients and assists with weight management and vitality levels."
         }
       },
       {
         "@type": "Question",
-        "name": "How does Mitolyn work?",
+        "name": "How does mitolyn function?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mitolyn works by targeting your mitochondria - the energy factories inside every cell. When they work at peak performance, your body naturally burns more fat and provides energy boost."
+          "text": "mitolyn functions by focusing on your mitochondria - the power plants within every cell. When they operate at maximum efficiency, your system naturally utilizes more fat and delivers vitality enhancement."
         }
       },
       {
         "@type": "Question",
-        "name": "Where can I buy Mitolyn?",
+        "name": "Where can I purchase mitolyn?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can buy Mitolyn from the official Mitolyn USA website. Visit our website to order and get the best prices with discounts."
+          "text": "You can purchase mitolyn from the official mitolyn store website. Visit our website to order and receive the best prices with special offers."
         }
       },
       {
         "@type": "Question",
-        "name": "Is Mitolyn safe?",
+        "name": "Is mitolyn safe?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, Mitolyn is made from natural plant-based ingredients. It's GMP certified, FDA approved facility, and made in the USA. However, consult with a healthcare professional before use."
+          "text": "Yes, mitolyn is crafted from natural botanical ingredients. It's GMP certified, FDA approved facility, and manufactured in the USA. However, speak with a healthcare provider before use."
         }
       }
     ]

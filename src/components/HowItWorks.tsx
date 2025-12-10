@@ -6,25 +6,25 @@ export default function HowItWorks() {
           <div className="row justify-center">
             <div className="col-md-12 col-lg-10">
               <h4 className="mbr-section-subtitle mbr-fonts-style mb-4 display-2 text-2xl md:text-3xl lg:text-4xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>How Does Mitolyn Work?</strong>
+                <strong>How Does mitolyn Work?</strong>
               </h4>
               <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                Mitolyn works by revitalizing the way your mitochondria—the tiny energy factories inside your cells—produce and manage energy. Mitolyn optimizes mitochondrial function, enabling your entire body to benefit with greater vitality, clearer focus, and more consistent energy throughout the day. Here's how Mitolyn helps optimize your internal energy engine:
+                Mitolyn functions by renewing how your mitochondria—the microscopic power plants within your cells—generate and regulate energy. Mitolyn maximizes mitochondrial efficiency, allowing your complete system to experience enhanced vigor, sharper mental clarity, and steadier power all day. Here's how Mitolyn assists in optimizing your internal power system:
                 <br /><br />
-                <strong>➤ Boosting Cellular Energy (ATP) Production<br /></strong>
-                Mitolyn supports mitochondria in generating adenosine triphosphate (ATP), the essential molecule that fuels every bodily process. Mitolyn's advanced nutrient complex promotes efficient, steady ATP output—helping you stay active and alert all day long.
+                <strong>➤ Enhancing Cellular Power (ATP) Generation<br /></strong>
+                Mitolyn assists mitochondria in creating adenosine triphosphate (ATP), the crucial molecule that powers every body function. Mitolyn's sophisticated nutrient blend encourages productive, consistent ATP production—keeping you engaged and attentive throughout the day.
                 <br /><br />
-                <strong>➤ Turning Fat into Energy<br /></strong>
-                Mitolyn enhances your body's ability to convert stored fat into usable fuel more effectively. Mitolyn promotes this metabolic pathway, aiding natural weight balance and smoother energy flow without relying on stimulants.
+                <strong>➤ Converting Fat into Fuel<br /></strong>
+                Mitolyn improves your system's capacity to transform accumulated fat into accessible energy more efficiently. Mitolyn encourages this metabolic process, supporting natural weight control and more fluid energy circulation without depending on stimulants.
                 <br /><br />
-                <strong>➤ Shielding Cells from Oxidative Stress<br /></strong>
-                Mitolyn is rich in antioxidants like Maqui Berry and Astaxanthin, which help neutralize free radicals that can slow down metabolism and accelerate aging. Mitolyn protects cellular integrity and promotes long-term wellness.
+                <strong>➤ Protecting Cells from Free Radical Damage<br /></strong>
+                Mitolyn is abundant in protective compounds like Maqui Berry and Astaxanthin, which assist in eliminating free radicals that can reduce metabolic rate and speed up aging. Mitolyn safeguards cellular health and encourages lasting wellness.
                 <br /><br />
-                <strong>➤ Balancing the Body's Stress Response<br /></strong>
-                Mitolyn contains adaptogenic botanicals such as Rhodiola Rosea and Schisandra, which help the body adapt to daily physical and emotional stress. Mitolyn's natural compounds support stamina, focus, and mental calm under pressure.
+                <strong>➤ Regulating the Body's Stress Adaptation<br /></strong>
+                Mitolyn includes adaptogenic plants such as Rhodiola Rosea and Schisandra, which assist the system in adjusting to everyday physical and mental stress. Mitolyn's natural elements support endurance, concentration, and emotional stability during challenging times.
                 <br /><br />
-                <strong>➤ Supporting Healthy Aging<br /></strong>
-                Mitolyn helps offset age-related energy decline by sustaining mitochondrial performance. Mitolyn supports youthful metabolism, better endurance, and overall vitality—so you feel energized and balanced as you age gracefully.
+                <strong>➤ Encouraging Healthy Aging<br /></strong>
+                Mitolyn helps counteract age-related power reduction by maintaining mitochondrial efficiency. Mitolyn supports vibrant metabolism, improved stamina, and general vitality—so you feel powerful and harmonious as you age naturally.
               </p>
             </div>
           </div>

@@ -1,0 +1,86 @@
+COMPLETE WEBSITE REBRANDING & MIGRATION PROMPT
+================================================
+
+I need to completely rebrand and migrate this website to a new brand and domain. Here are my details:
+
+NEW DOMAIN: [YOUR_NEW_DOMAIN] (e.g., https://example-product.com)
+NEW BRAND NAME: [YOUR_NEW_BRAND_NAME] (e.g., MetaboSlim)
+
+Please perform the following comprehensive changes:
+
+1. DOMAIN REPLACEMENT:
+   - Find and replace ALL occurrences of "mtolyn-us.us" or "mtolyn-us.com" with "[YOUR_NEW_DOMAIN]" (without https://)
+   - Update in: layout.tsx, sitemap.ts, robots.ts, StructuredData.tsx, and all page.tsx files
+   - Update all canonical URLs
+   - Update sitemap baseUrl
+   - Update robots.txt sitemap URL
+
+2. BRAND NAME REPLACEMENT:
+   - Find and replace ALL occurrences of "Mitolyn" (case-sensitive) with "[YOUR_NEW_BRAND_NAME]"
+   - Update in ALL component files, page files, and metadata
+   - Ensure consistent branding throughout
+
+3. SEO UNIQUENESS:
+   - Update title: Change "Mitolyn™ Official | Metabolism Booster & Fat Burner" to "[YOUR_NEW_BRAND_NAME]™ Official | [Unique Value Proposition]" with different wording
+   - Rewrite meta description: Keep same intent but use 30-40% different wording
+   - Update all keywords to include [YOUR_NEW_BRAND_NAME] and remove "mitolyn"
+   - Update all page metadata (Privacy, Terms, etc.) with unique descriptions
+
+4. CONTENT REWRITING (Make Unique):
+   - Hero Section: Rewrite main description with different sentence structure, keep same information
+   - WhatIsMitolyn: Rewrite all paragraphs starting with [YOUR_NEW_BRAND_NAME], use synonyms
+   - HowItWorks: Rewrite all bullet points with different phrasing
+   - Benefits: Rewrite all benefit descriptions with different adjectives
+   - Ingredients: Keep ingredients same but rewrite descriptions uniquely
+   - Reviews: Update customer names/locations, rewrite review text, slightly change weight numbers
+   - FAQ: Rewrite all Q&A with different wording, same topics
+   - All Policy Pages: Rewrite content uniquely while maintaining legal accuracy
+
+5. DESIGN DIFFERENTIATION:
+   - Hero Background: Change from blue gradient to different colors (e.g., purple, teal, or different blue shades)
+   - Header/Navbar: Change gradient colors
+   - Section Backgrounds: Adjust colors (Reviews section, etc.)
+   - Typography: Slightly adjust font sizes/weights
+   - Spacing: Adjust padding/margins slightly
+
+6. IMAGES & ASSETS:
+   - Update all image URLs to new brand folder/paths
+   - Update all alt text to use [YOUR_NEW_BRAND_NAME]
+   - Update logo references in Header
+   - Update favicon URL in layout.tsx
+
+7. STRUCTURED DATA:
+   - Update baseUrl in StructuredData.tsx to [YOUR_NEW_DOMAIN]
+   - Update organization name to "[YOUR_NEW_BRAND_NAME] Official"
+   - Update logo URL
+   - Update product name in schema
+   - Update all brand references
+
+8. VERIFICATION CODES:
+   - Remove old Bing verification: "DF238DB2B8BB655EFD6CF96236274D79"
+   - Add new Bing verification code for new domain (I'll provide it)
+   - Update Google Analytics ID if present
+   - Update any other platform verification codes
+
+9. REMOVE OLD TRACES:
+   - Search and remove any remaining "Mitolyn" references
+   - Remove old domain references
+   - Remove old brand-specific paths
+   - Clean up any old analytics/verification codes
+
+10. FINAL VERIFICATION:
+    - Ensure sitemap.xml uses new domain
+    - Ensure robots.txt uses new domain
+    - Verify all canonical URLs updated
+    - Test all pages load correctly
+    - Verify no old brand traces remain
+
+IMPORTANT REQUIREMENTS:
+- Don't just find-replace content - actually REWRITE sentences to avoid duplicate content
+- Make SEO descriptions 30-40% different while keeping same intent
+- Change design colors to differentiate visually
+- Ensure all content starts with [YOUR_NEW_BRAND_NAME] where applicable
+- Keep legal pages accurate but uniquely worded
+
+Please complete all steps systematically and verify each change.
+

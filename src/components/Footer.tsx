@@ -15,22 +15,22 @@ export default function Footer() {
                   <ul className="list space-y-4">
                     <li>
                       <Link href="#header3-1l" className="text-white hover:text-yellow-400 transition-colors text-lg md:text-xl">
-                        What is Mitolyn?
+                        What is mitolyn?
                       </Link>
                     </li>
                     <li>
                       <Link href="#header3-1m" className="text-white hover:text-yellow-400 transition-colors text-lg md:text-xl">
-                        How Does Mitolyn Work?
+                        How Does mitolyn Work?
                       </Link>
                     </li>
                     <li>
                       <Link href="#header3-1o" className="text-white hover:text-yellow-400 transition-colors text-lg md:text-xl">
-                        Ingredients of Mitolyn
+                        Ingredients of mitolyn
                       </Link>
                     </li>
                     <li>
                       <Link href="#header3-1n" className="text-white hover:text-yellow-400 transition-colors text-lg md:text-xl">
-                        Mitolyn Benefits
+                        mitolyn Benefits
                       </Link>
                     </li>
                   </ul>
@@ -47,12 +47,12 @@ export default function Footer() {
                     </li>
                     <li>
                       <Link href="#content4-6e" className="text-white hover:text-yellow-400 transition-colors text-lg md:text-xl">
-                        Mitolyn Customer Reviews
+                        mitolyn Customer Reviews
                       </Link>
                     </li>
                     <li>
                       <Link href="#content4-g" className="text-white hover:text-yellow-400 transition-colors text-lg md:text-xl">
-                        Mitolyn Price
+                        mitolyn Price
                       </Link>
                     </li>
                   </ul>
@@ -107,7 +107,7 @@ export default function Footer() {
                 </Link>
               </div>
               <p className="text-center text-sm text-white">
-                © Copyright 2024 - <Link href="/" className="text-yellow-400 hover:text-yellow-500 transition-colors font-medium">Mitolyn</Link> All Rights Reserved
+                © Copyright 2024 - <Link href="/" className="text-yellow-400 hover:text-yellow-500 transition-colors font-medium">mitolyn</Link> All Rights Reserved
               </p>
             </div>
           </div>

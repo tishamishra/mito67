@@ -7,7 +7,7 @@ export default function Hero() {
       className="header14 cid-uwxCXuDQMI relative flex items-center py-6 md:py-10" 
       id="header14-8k"
       style={{
-        background: 'linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%)',
+        background: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%)',
         minHeight: 'auto'
       }}
     >
@@ -18,8 +18,8 @@ export default function Hero() {
           <div className="col-12 col-md-6 lg:col-md-7 image-wrapper flex justify-center md:justify-start items-center">
             <img 
               src="https://ik.imagekit.io/affin/mitolyn-official.webp" 
-              alt="Mitolyn" 
-              title="Mitolyn"
+              alt="mitolyn" 
+              title="mitolyn"
               className="object-contain"
               style={{ 
                 display: 'block',
@@ -35,12 +35,12 @@ export default function Hero() {
           {/* Text Content - Right Side */}
           <div className="col-12 col-md-6 lg:col-md-5 text-wrapper">
             <h1 className="mbr-section-title mbr-fonts-style mb-2 display-1 text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white" style={{ fontFamily: 'Arial, sans-serif', lineHeight: '1.2' }}>
-              <strong>Mitolyn: Metabolism Booster & Fat Burner</strong>
+              <strong>Mitolyn: Advanced Metabolic Support & Weight Management</strong>
             </h1>
             <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed mb-4 text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
-              Mitolyn represents a breakthrough in metabolic support, combining scientifically-backed botanical ingredients to optimize cellular energy production and fat metabolism. Mitolyn works at the mitochondrial level, where cellular energy is generated, to enhance your body's natural ability to convert stored fat into usable energy.
+              Mitolyn delivers an innovative approach to metabolic enhancement, integrating research-validated plant-based components that maximize cellular power generation and efficient fat utilization. Mitolyn operates at the cellular energy core, where power is created, to amplify your body's inherent capacity to transform accumulated fat into accessible fuel.
               <br /><br />
-              Mitolyn supports sustainable weight management through a multi-faceted approach that addresses metabolic efficiency, energy production, and cellular health. Mitolyn's unique formulation helps restore optimal mitochondrial function, which naturally declines with age and lifestyle factors, enabling your body to operate at peak performance.
+              Mitolyn promotes lasting weight control via a comprehensive strategy targeting metabolic performance, power output, and cellular wellness. Mitolyn's distinctive blend assists in renewing peak mitochondrial activity, which naturally decreases with aging and lifestyle influences, allowing your system to function at maximum efficiency.
             </p>
             <div className="mbr-section-btn mt-4 flex flex-col sm:flex-row gap-3 sm:gap-4">
               <a 

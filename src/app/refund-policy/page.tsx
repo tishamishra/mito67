@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Refund Policy | Mitolyn Official',
-  description: 'Mitolyn official refund policy. Learn about our 90-day money-back guarantee and return process on the official Mitolyn website.',
-  keywords: 'mitolyn refund, mitolyn buy refund, mitolyn official refund policy',
+  title: 'Refund Policy | mitolyn Official',
+  description: 'mitolyn official refund policy. Learn about our 90-day money-back guarantee and return process on the official mitolyn website.',
+  keywords: 'mitolyn refund, mitolyn purchase refund, mitolyn official refund policy',
   alternates: {
-    canonical: 'https://mtolyn-us.us/refund-policy',
+    canonical: 'https://mtolyn.store/refund-policy',
   },
 };
 
@@ -58,14 +58,14 @@ export default function RefundPolicy() {
             <div className="bg-gray-50 border-l-4 border-gray-400 p-6 my-6 rounded">
               <h3 className="text-xl md:text-2xl font-bold mb-4" style={{ color: '#1098b7' }}>For Orders Processed via BuyGoods:</h3>
               <p className="text-base md:text-lg mb-4 leading-relaxed">
-                Mitolyn recommends contacting <a href="https://buygoods.com/contact" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Contact</a> for refund requests. Mitolyn's refund policy details are also available at <a href="https://buygoods.com/refund-policy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Refund Policy</a>.
+                mitolyn recommends contacting <a href="https://buygoods.com/contact" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Contact</a> for refund requests. Mitolyn's refund policy details are also available at <a href="https://buygoods.com/refund-policy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Refund Policy</a>.
               </p>
             </div>
 
             <div className="bg-gray-50 border-l-4 border-gray-400 p-6 my-6 rounded">
               <h3 className="text-xl md:text-2xl font-bold mb-4" style={{ color: '#1098b7' }}>For Orders Processed via ClickBank:</h3>
               <p className="text-base md:text-lg mb-4 leading-relaxed">
-                Mitolyn recommends contacting <a href="https://support.clickbank.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Contact</a> for refund requests. Mitolyn's refund policy details are also available at <a href="https://support.clickbank.com/refund-policy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Refund Policy</a>.
+                mitolyn recommends contacting <a href="https://support.clickbank.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Contact</a> for refund requests. Mitolyn's refund policy details are also available at <a href="https://support.clickbank.com/refund-policy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Refund Policy</a>.
               </p>
             </div>
 

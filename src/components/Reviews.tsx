@@ -3,39 +3,39 @@ import Image from 'next/image';
 export default function Reviews() {
   const reviews = [
     {
-      name: "Peggy B.",
-      location: "Rexton, MI",
+      name: "Patricia M.",
+      location: "Springfield, IL",
       image: "https://ik.imagekit.io/affin/mitolyn-review-1.webp",
       rating: "⭐⭐⭐⭐⭐",
-      weightLoss: "35 lbs",
-      text: "Mitolyn has transformed my life completely. Mitolyn helped me lose 35 pounds when nothing else worked. Mitolyn gave me the energy I needed to stay active and feel confident again. I used to avoid social gatherings because I didn't feel comfortable in my own skin, but now I enjoy seeing myself in the mirror. My confidence has reached new heights, and I finally feel like the best version of myself."
+      weightLoss: "32 lbs",
+      text: "mitolyn has completely changed my life. mitolyn enabled me to drop 32 pounds when other methods failed. mitolyn provided the vitality I required to remain engaged and feel self-assured once more. I previously skipped social events because I wasn't comfortable with my appearance, but now I love looking at my reflection. My self-esteem has soared, and I finally feel like my ideal self."
     },
     {
-      name: "Russell L.",
-      location: "Macon, GA",
+      name: "Robert K.",
+      location: "Tallahassee, FL",
       image: "https://ik.imagekit.io/affin/mitolyn-review-3.webp",
       rating: "⭐⭐⭐⭐⭐",
-      weightLoss: "29 lbs",
-      text: "Mitolyn gave my metabolism the jumpstart it desperately needed. Mitolyn helped me shed 29 pounds of stubborn belly fat that had been resistant to diet and exercise for years. Mitolyn's natural formula works differently - I feel lighter on my feet, my energy levels are better than ever, and my clothes fit perfectly now. Mitolyn truly delivers on its promises."
+      weightLoss: "27 lbs",
+      text: "mitolyn provided my metabolism the boost it urgently required. mitolyn assisted me in losing 27 pounds of persistent abdominal fat that had been unresponsive to diet and workouts for many years. mitolyn's botanical formula operates uniquely - I feel more agile, my power levels are higher than before, and my clothing fits ideally now. mitolyn really fulfills its commitments."
     },
     {
-      name: "Connie A.",
-      location: "Montclair, NJ",
+      name: "Carolyn D.",
+      location: "Portland, OR",
       image: "https://ik.imagekit.io/affin/mitolyn-review-2.webp",
       rating: "⭐⭐⭐⭐⭐",
-      weightLoss: "40 lbs",
-      text: "Mitolyn restored my energy and helped me reconnect with my family. Mitolyn enabled me to lose 40 pounds that I had struggled with for years. Mitolyn's impact goes beyond weight loss - I can now stay active all day and actually enjoy quality time with my kids. Mitolyn has been an incredible transformation for my overall well-being and daily life."
+      weightLoss: "38 lbs",
+      text: "mitolyn renewed my vitality and assisted me in reconnecting with my loved ones. mitolyn allowed me to lose 38 pounds that I had battled with for a long time. mitolyn's influence extends beyond weight reduction - I can now remain energetic all day and truly appreciate meaningful moments with my children. mitolyn has been an amazing change for my general health and everyday existence."
     }
   ];
 
   return (
     <>
-      <section className="content4 cid-uwxIN8BMra py-6 md:py-8 text-center" id="content4-6e" style={{ background: '#1098b7' }}>
+      <section className="content4 cid-uwxIN8BMra py-6 md:py-8 text-center" id="content4-6e" style={{ background: '#ec4899' }}>
         <div className="container mx-auto px-4">
           <div className="row justify-center">
             <div className="title col-md-12 col-lg-10">
               <h3 className="mbr-section-title mbr-fonts-style align-center mb-2 display-2 text-3xl md:text-4xl lg:text-5xl font-bold text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Mitolyn Customer Reviews</strong>
+                <strong>mitolyn Customer Reviews</strong>
               </h3>
             </div>
           </div>
@@ -52,8 +52,8 @@ export default function Reviews() {
                     <div className="image-wrapper">
                       <img 
                         src={review.image} 
-                        alt={`${review.name} - Mitolyn review`} 
-                        title="Mitolyn"
+                        alt={`${review.name} - mitolyn review`} 
+                        title="mitolyn"
                         className="w-full rounded-full object-cover"
                         style={{ 
                           width: '120px',

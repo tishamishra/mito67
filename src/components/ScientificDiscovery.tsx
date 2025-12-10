@@ -1,7 +1,7 @@
 export default function ScientificDiscovery() {
   return (
     <>
-      <section className="header3 cid-uwoihflHRW py-10 text-center" id="header3-86" style={{ background: '#1098b7' }}>
+      <section className="header3 cid-uwoihflHRW py-10 text-center" id="header3-86" style={{ background: '#a855f7' }}>
         <div className="align-center container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-lg-9">
@@ -18,37 +18,37 @@ export default function ScientificDiscovery() {
           <div className="row justify-center">
             <div className="col-md-12 col-lg-10">
               <h4 className="mbr-section-subtitle mbr-fonts-style mb-4 display-2 text-2xl md:text-3xl lg:text-4xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Key Benefits of Mitolyn:</strong>
+                <strong>Key Benefits of mitolyn:</strong>
               </h4>
               <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                Mitolyn offers comprehensive, everyday support for those seeking natural energy, metabolic balance, and sustained vitality. Mitolyn's scientifically-formulated blend addresses multiple aspects of cellular health and metabolic function. Below are Mitolyn's most notable advantages:
+                Mitolyn delivers complete, daily assistance for those looking for natural vitality, metabolic harmony, and maintained vigor. Mitolyn's research-driven combination targets various elements of cellular wellness and metabolic performance. Here are Mitolyn's most significant benefits:
                 <br /><br />
-                <strong>➤ Boosts Energy Production<br /></strong>
-                Mitolyn enhances mitochondrial efficiency to help your body generate stable, lasting energy—keeping you motivated, focused, and active throughout the day.
+                <strong>➤ Enhances Power Generation<br /></strong>
+                Mitolyn improves mitochondrial productivity to assist your system in creating steady, continuous power—keeping you driven, alert, and engaged all day.
                 <br /><br />
-                <strong>➤ Promotes Metabolic Balance<br /></strong>
-                Mitolyn encourages effective breakdown of fats and nutrients, supporting a smooth, balanced metabolism and consistent weight management.
+                <strong>➤ Encourages Metabolic Harmony<br /></strong>
+                Mitolyn promotes productive processing of fats and nutrients, supporting a fluid, harmonious metabolism and steady weight control.
                 <br /><br />
-                <strong>➤ Strengthens Antioxidant Defense<br /></strong>
-                Mitolyn is rich in protective antioxidants, which help neutralize free radicals, reduce everyday inflammation, and maintain healthy, resilient cells over time.
+                <strong>➤ Fortifies Protective Defense<br /></strong>
+                Mitolyn is abundant in defensive antioxidants, which assist in eliminating free radicals, minimizing common inflammation, and preserving healthy, strong cells over time.
                 <br /><br />
-                <strong>➤ Supports Stress Resilience<br /></strong>
-                Mitolyn contains adaptogenic botanicals like Rhodiola Rosea and Schisandra, which aid in adapting to stress, fighting fatigue, and improving physical and mental endurance.
+                <strong>➤ Assists Stress Adaptation<br /></strong>
+                Mitolyn includes adaptogenic plants like Rhodiola Rosea and Schisandra, which help in adjusting to pressure, combating exhaustion, and enhancing physical and mental stamina.
                 <br /><br />
-                <strong>➤ Enhances Cognitive Function<br /></strong>
-                Mitolyn's natural nutrients promote sharper thinking, better memory, and improved focus—helping you stay clear-minded and productive all day.
+                <strong>➤ Improves Mental Performance<br /></strong>
+                Mitolyn's natural components encourage clearer cognition, enhanced recall, and better concentration—helping you remain sharp and efficient all day.
                 <br /><br />
-                <strong>➤ Encourages Graceful Aging<br /></strong>
-                Mitolyn helps counter age-related energy dips by nurturing mitochondrial performance, supporting lasting vitality for a more youthful feeling.
+                <strong>➤ Supports Healthy Aging<br /></strong>
+                Mitolyn assists in offsetting age-related power declines by supporting mitochondrial efficiency, encouraging lasting vigor for a more vibrant feeling.
                 <br /><br />
-                <strong>➤ Supports Digestion & Nutrient Uptake<br /></strong>
-                Mitolyn includes ingredients like Amla that aid healthy digestion and efficient nutrient absorption—helping your body make the most of every meal.
+                <strong>➤ Aids Digestion & Nutrient Absorption<br /></strong>
+                Mitolyn contains components like Amla that help comfortable digestion and productive nutrient uptake—assisting your system in maximizing every meal.
                 <br /><br />
-                <strong>➤ Clean, Plant-Based Formula<br /></strong>
-                Mitolyn is crafted with non-GMO, botanical ingredients and free from artificial additives—ideal for safe, long-term daily use.
+                <strong>➤ Pure, Botanical Formula<br /></strong>
+                Mitolyn is designed with non-GMO, plant-based components and devoid of synthetic additives—perfect for secure, extended daily consumption.
                 <br /><br />
-                <strong>➤ A Trusted Path to Wellness<br /></strong>
-                Mitolyn is available directly from the Mitolyn Official Store, offering authentic formulations, exclusive discounts, fast shipping, and dependable customer care.
+                <strong>➤ A Reliable Route to Health<br /></strong>
+                Mitolyn is obtainable directly from the Mitolyn Official Store, providing genuine formulations, special discounts, quick delivery, and reliable customer service.
               </p>
             </div>
           </div>

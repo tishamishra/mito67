@@ -6,32 +6,32 @@ import "./mobirise-sections.css";
 import "./competitor-styles.css";
 
 export const metadata: Metadata = {
-  title: "Mitolyn™ Official | Metabolism Booster & Fat Burner",
-  description: "Mitolyn official site - premium metabolism booster and fat burner. Discover benefits, read reviews, and purchase Mitolyn for weight loss support and enhanced energy.",
-  keywords: "mitolyn, mitolyn official, mitolyn buy, mitolyn fat loss, mitolyn reviews, mitolyn official website supplement, mitolyn usa official website, mitolyn metabolism booster, mitolyn fat burner",
+  title: "mitolyn™ Official | Metabolic Support & Weight Management",
+  description: "mitolyn official site - metabolic enhancement formula. Explore benefits, reviews, and order mitolyn for weight management and vitality.",
+  keywords: "mitolyn, mitolyn official, mitolyn purchase, mitolyn weight management, mitolyn testimonials, mitolyn official site supplement, mitolyn store official website, mitolyn metabolic support, mitolyn weight loss",
   openGraph: {
-    title: "Mitolyn™ Official | Metabolism Booster & Fat Burner",
-    description: "Mitolyn official site - premium metabolism booster. Discover benefits, read reviews, and order Mitolyn for weight loss support and energy boost.",
-    url: "https://mtolyn-us.us/",
-    siteName: "Mitolyn Official",
+    title: "mitolyn™ Official | Metabolic Support & Weight Management",
+    description: "mitolyn official site - metabolic enhancement formula. Explore benefits, reviews, and order mitolyn for weight management and vitality.",
+    url: "https://mtolyn.store/",
+    siteName: "mitolyn Official",
     type: "website",
     images: [
       {
         url: "https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900",
         width: 500,
         height: 500,
-        alt: "Mitolyn Official Supplement",
+        alt: "mitolyn Official Supplement",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mitolyn™ Official | Metabolism Booster & Fat Burner",
-    description: "Mitolyn official site - premium metabolism booster and fat burner. Read reviews and order Mitolyn for weight loss support today.",
+    title: "mitolyn™ Official | Metabolic Support & Weight Management",
+    description: "mitolyn official site - metabolic enhancement formula. Read reviews and order mitolyn for weight management support today.",
     images: ["https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900"],
   },
   alternates: {
-    canonical: "https://mtolyn-us.us/",
+    canonical: "https://mtolyn.store/",
   },
   icons: {
     icon: [
@@ -72,7 +72,7 @@ export default function RootLayout({
         <meta name="msvalidate.01" content="DF238DB2B8BB655EFD6CF96236274D79" />
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta name="author" content="Mitolyn Official" />
+        <meta name="author" content="mitolyn Official" />
         <meta name="language" content="English" />
         <meta name="geo.region" content="US" />
         <meta name="geo.placename" content="United States" />

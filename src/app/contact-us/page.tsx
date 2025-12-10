@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Contact Us | Mitolyn Official',
-  description: 'Contact Mitolyn official customer support. Get help with orders, tracking, refunds, and product questions on the official Mitolyn USA website.',
-  keywords: 'mitolyn contact, mitolyn official contact, mitolyn usa support',
+  title: 'Contact Us | mitolyn Official',
+  description: 'Contact mitolyn official customer support. Get assistance with orders, tracking, refunds, and product inquiries on the official mitolyn store website.',
+  keywords: 'mitolyn contact, mitolyn official contact, mitolyn store support',
   alternates: {
-    canonical: 'https://mtolyn-us.us/contact-us',
+    canonical: 'https://mtolyn.store/contact-us',
   },
 };
 
@@ -22,10 +22,10 @@ export default function ContactUs() {
           
           <div className="prose prose-lg max-w-none" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
             <p className="text-lg mb-6">
-              Mitolyn is committed to providing exceptional customer service and support. Mitolyn's customer service team is available to assist you with questions about our products, orders, shipping, refunds, and any other inquiries. Mitolyn ensures prompt and professional assistance for all customer needs.
+              Mitolyn is dedicated to delivering outstanding customer service and support. Mitolyn's customer service team is ready to help you with inquiries about our products, orders, shipping, refunds, and any other questions. Mitolyn guarantees quick and professional help for all customer requirements.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>How to Contact Mitolyn</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>How to Contact mitolyn</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
               Mitolyn processes customer inquiries through secure payment processors to ensure your information is handled safely and efficiently. Mitolyn recommends contacting the appropriate support channel based on the payment processor that appears on your credit card statement. Mitolyn's support channels are equipped to handle all types of customer inquiries, from order questions to product information.
             </p>
@@ -69,7 +69,7 @@ export default function ContactUs() {
               Mitolyn provides comprehensive order tracking services for all customers. Mitolyn recommends visiting our <a href="/order-tracking" className="text-blue-600 hover:underline">Order Tracking</a> page for detailed information about accessing your tracking information. Mitolyn's customer service team can also assist with tracking inquiries if you need additional help locating your order status.
             </p>
 
-            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Thank You for Choosing Mitolyn</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Thank You for Choosing mitolyn</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
               Mitolyn values your business and is committed to providing exceptional customer service. Mitolyn's team is here to help with any questions or concerns you may have. Mitolyn looks forward to assisting you and ensuring your complete satisfaction with our products and services.
             </p>

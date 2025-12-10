@@ -7,28 +7,28 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "Who is Mitolyn suitable for?",
-      answer: "Mitolyn is designed for adults who want to naturally boost energy, support metabolism, and maintain overall wellness. Mitolyn's plant-based formulation makes it suitable for most adults seeking metabolic support. Mitolyn should not be used by individuals who are pregnant, nursing, under medical supervision, or taking medication without first consulting a healthcare provider."
+      question: "Who should use mitolyn?",
+      answer: "mitolyn is created for adults who desire to naturally enhance vitality, assist metabolic function, and preserve general health. mitolyn's botanical composition makes it appropriate for most adults looking for metabolic assistance. mitolyn should not be utilized by people who are expecting, breastfeeding, under medical care, or using medication without initially speaking with a healthcare professional."
     },
     {
-      question: "Does Mitolyn cause any side effects?",
-      answer: "Mitolyn is formulated with clean, plant-derived ingredients and is generally well tolerated. Mitolyn's natural composition minimizes the risk of adverse reactions. Some users may notice mild digestive adjustments or temporary energy shifts as the body adapts. Mitolyn recommends discontinuing use and consulting your physician if any discomfort occurs."
+      question: "Are there any side effects with mitolyn?",
+      answer: "mitolyn is composed with pure, botanical-sourced components and is typically well accepted. mitolyn's natural makeup reduces the possibility of negative responses. Certain users might experience slight digestive changes or short-term power variations as the system adjusts. mitolyn suggests stopping use and speaking with your doctor if any uneasiness happens."
     },
     {
-      question: "How long does it take to see results with Mitolyn?",
-      answer: "Mitolyn's effects vary depending on the individual, but many users begin noticing improved energy, mood, and focus within the first few weeks. Mitolyn works best when used consistently while maintaining a balanced diet and healthy lifestyle. Mitolyn's cumulative benefits become more pronounced with continued use over time."
+      question: "When will I notice results with mitolyn?",
+      answer: "mitolyn's outcomes differ based on the person, but numerous users start experiencing enhanced vitality, emotional state, and mental clarity during the initial weeks. mitolyn functions optimally when taken regularly while following a nutritious diet and active lifestyle. mitolyn's accumulated advantages become more evident with ongoing use over time."
     },
     {
-      question: "Can Mitolyn be used long-term?",
-      answer: "Mitolyn's stimulant-free, botanical formulation is crafted for safe, long-term daily use. Mitolyn's natural ingredients support sustainable metabolic health without dependency concerns. Mitolyn recommends checking in with your healthcare professional for personalized advice on extended use."
+      question: "Is mitolyn safe for extended use?",
+      answer: "mitolyn's stimulant-free, plant-based formula is designed for secure, extended daily consumption. mitolyn's natural elements support lasting metabolic wellness without addiction worries. mitolyn suggests consulting with your healthcare provider for customized guidance on prolonged use."
     },
     {
-      question: "Is there a Mitolyn special offer available?",
-      answer: "Mitolyn can be purchased at special discounted rates directly from the official website for a limited time. Mitolyn offers bundle pricing and promotional savings while supplies last. Mitolyn's current pricing represents significant value for this best-selling metabolic support formula."
+      question: "Are there any mitolyn promotional offers?",
+      answer: "mitolyn can be obtained at special reduced prices directly from the official site for a restricted period. mitolyn provides package deals and promotional discounts while stock remains. mitolyn's present pricing offers substantial value for this top-selling metabolic support formula."
     },
     {
-      question: "Where can I buy Mitolyn safely?",
-      answer: "Mitolyn is available directly from the official Mitolyn website or verified partners to ensure authenticity and access exclusive deals. Mitolyn's official channels guarantee genuine products, bundle savings, and fast, secure shipping. Mitolyn recommends purchasing only from authorized sources to ensure product quality and customer support."
+      question: "Where can I purchase mitolyn securely?",
+      answer: "mitolyn is obtainable directly from the official mitolyn website or approved partners to guarantee authenticity and access special offers. mitolyn's official outlets ensure authentic products, package discounts, and quick, safe delivery. mitolyn suggests buying only from authorized sellers to ensure product quality and customer assistance."
     }
   ];
 
@@ -39,7 +39,7 @@ export default function FAQ() {
           <div className="row justify-center">
             <div className="col-12 col-lg-12">
               <h3 className="mbr-section-title mb-0 mbr-fonts-style display-2 text-3xl md:text-4xl lg:text-5xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Mitolyn Frequently Asked Questions</strong>
+                <strong>mitolyn Frequently Asked Questions</strong>
               </h3>
             </div>
           </div>

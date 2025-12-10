@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Bonuses() {
   return (
     <>
-      <section className="header3 cid-udGvtAJfqr py-10 text-center" id="header3-7i" style={{ background: '#1098b7' }}>
+      <section className="header3 cid-udGvtAJfqr py-10 text-center" id="header3-7i" style={{ background: '#8b5cf6' }}>
         <div className="align-center container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-lg-9">
@@ -25,7 +25,7 @@ export default function Bonuses() {
                   <div className="image-wrapper">
                     <Image 
                       src="https://ik.imagekit.io/affin/mitolyn-bonus.webp?updatedAt=1765361274887" 
-                      alt="Mitolyn bonus 2" 
+                      alt="mitolyn bonus" 
                       width={600} 
                       height={600}
                       className="w-full h-auto rounded-lg shadow-xl"
@@ -48,7 +48,7 @@ export default function Bonuses() {
                       <strong>Regular Price: $69.95 | Today: Free</strong>
                     </h6>
                     <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                      Mitolyn customers who order 3 or 6 bottle packages receive this comprehensive 1-Day Kickstart Detox guide at no additional cost. Mitolyn's detox protocol helps prepare your body for optimal supplement absorption by cleansing and flushing your organs. Mitolyn's guide includes 20 simple 15-second detox tea recipes using everyday ingredients from your kitchen, designed to enhance your Mitolyn journey from day one.
+                      Mitolyn customers who order 3 or 6 bottle packages receive this complete 1-Day Kickstart Detox guide at no extra cost. Mitolyn's detox method helps ready your system for peak supplement uptake by purifying and clearing your organs. Mitolyn's guide contains 20 easy 15-second detox tea recipes using common ingredients from your kitchen, created to improve your Mitolyn experience from day one.
                     </p>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export default function Bonuses() {
                   <div className="image-wrapper">
                     <Image 
                       src="https://ik.imagekit.io/affin/mitolyn-bonus-2.webp?updatedAt=1765361274887" 
-                      alt="Mitolyn bonus 2" 
+                      alt="mitolyn bonus" 
                       width={600} 
                       height={600}
                       className="w-full h-auto rounded-lg shadow-xl"
@@ -90,7 +90,7 @@ export default function Bonuses() {
                       <strong>Regular Price: $59.95 | Today: Free</strong>
                     </h6>
                     <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                      Mitolyn includes the Renew You guide as your second complimentary bonus, focusing on mental wellness and mindset transformation. Mitolyn recognizes that physical transformation requires mental alignment, which is why this guide provides simple methods to instantly relieve stress, calm your mind, boost confidence, and reduce anxiety. Mitolyn's holistic approach ensures you achieve both physical and mental renewal as you progress on your wellness journey.
+                      Mitolyn contains the Renew You guide as your second free bonus, concentrating on mental health and mindset change. Mitolyn understands that physical change needs mental harmony, which is why this guide offers straightforward techniques to immediately reduce stress, soothe your mind, increase self-assurance, and minimize anxiety. Mitolyn's comprehensive method guarantees you reach both physical and mental restoration as you advance on your wellness path.
                     </p>
                   </div>
                 </div>

@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Order Tracking | Mitolyn Official',
-  description: 'Track your Mitolyn order on the official website. Get order assistance and tracking information for your Mitolyn purchase.',
-  keywords: 'mitolyn order tracking, mitolyn buy tracking, mitolyn official order',
+  title: 'Order Tracking | mitolyn Official',
+  description: 'Track your mitolyn order on the official website. Get order assistance and tracking information for your mitolyn purchase.',
+  keywords: 'mitolyn order tracking, mitolyn purchase tracking, mitolyn official order',
   alternates: {
-    canonical: 'https://mtolyn-us.us/order-tracking',
+    canonical: 'https://mtolyn.store/order-tracking',
   },
 };
 
@@ -43,20 +43,20 @@ export default function OrderTracking() {
             <div className="bg-gray-50 border-l-4 border-gray-400 p-6 my-6 rounded">
               <h3 className="text-xl md:text-2xl font-bold mb-4" style={{ color: '#1098b7' }}>If BuyGoods Appears on Your Credit Card Statement:</h3>
               <p className="text-base md:text-lg mb-4 leading-relaxed">
-                Mitolyn recommends visiting <a href="https://buygoods.com/tracking" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Order Tracking</a> to access your order details and tracking information. Mitolyn's orders processed through BuyGoods can be tracked using your order number or email address.
+                mitolyn recommends visiting <a href="https://buygoods.com/tracking" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Order Tracking</a> to access your order details and tracking information. Mitolyn's orders processed through BuyGoods can be tracked using your order number or email address.
               </p>
               <p className="text-base md:text-lg mb-4 leading-relaxed">
-                Mitolyn's customer support is available through <a href="https://buygoods.com/contact" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Contact</a> for any questions about your order or tracking information.
+                mitolyn's customer support is available through <a href="https://buygoods.com/contact" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">BuyGoods Contact</a> for any questions about your order or tracking information.
               </p>
             </div>
 
             <div className="bg-gray-50 border-l-4 border-gray-400 p-6 my-6 rounded">
               <h3 className="text-xl md:text-2xl font-bold mb-4" style={{ color: '#1098b7' }}>If ClickBank Appears on Your Credit Card Statement:</h3>
               <p className="text-base md:text-lg mb-4 leading-relaxed">
-                Mitolyn recommends visiting <a href="https://support.clickbank.com/order-tracking" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Order Tracking</a> to access your order details and tracking information. Mitolyn's orders processed through ClickBank can be tracked using your order confirmation number.
+                mitolyn recommends visiting <a href="https://support.clickbank.com/order-tracking" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Order Tracking</a> to access your order details and tracking information. Mitolyn's orders processed through ClickBank can be tracked using your order confirmation number.
               </p>
               <p className="text-base md:text-lg mb-4 leading-relaxed">
-                Mitolyn's customer support is available through <a href="https://support.clickbank.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Contact</a> for any questions about your order or tracking information.
+                mitolyn's customer support is available through <a href="https://support.clickbank.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ClickBank Contact</a> for any questions about your order or tracking information.
               </p>
             </div>
 

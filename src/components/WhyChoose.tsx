@@ -4,25 +4,25 @@ export default function WhyChoose() {
   const features = [
     {
       image: "https://ik.imagekit.io/affin/gmp-certified-500x300.webp?updatedAt=1765361274884",
-      alt: "Mitolyn-gmp-certified",
+      alt: "mitolyn-gmp-certified",
       title: "GMP Certified",
       description: "Good Manufacturing Practice certified ensuring pharmaceutical grade quality."
     },
     {
       image: "https://ik.imagekit.io/affin/made-in-usa-500x300.webp?updatedAt=1765361274885",
-      alt: "Mitolyn-made-in-usa",
+      alt: "mitolyn-made-in-usa",
       title: "Made In The USA",
       description: "Mitolyn is proudly formulated in the United States of America."
     },
     {
       image: "https://ik.imagekit.io/affin/fda-approved-500x300.webp?updatedAt=1765361274885",
-      alt: "Mitolyn-approved",
+      alt: "mitolyn-approved",
       title: "FDA Approved Facility",
       description: "Mitolyn is formulated in an FDA-registered facility that adheres to strict FDA regulations."
     },
     {
       image: "https://ik.imagekit.io/affin/100-natural-500x300.webp?updatedAt=1765361274886",
-      alt: "Mitolyn-natural-product",
+      alt: "mitolyn-natural-product",
       title: "100% All Natural",
       description: "We are proud to say that Mitolyn is Natural, Non-GMO, and Gluten-Free."
     }
@@ -30,12 +30,12 @@ export default function WhyChoose() {
 
   return (
     <>
-      <section className="header3 cid-tRBZcaLIQn py-10 text-center" id="header3-2x" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+      <section className="header3 cid-tRBZcaLIQn py-10 text-center" id="header3-2x" style={{ background: 'linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%)' }}>
         <div className="align-center container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-lg-12">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Why Choose Mitolyn?</strong>
+                <strong>Why Choose mitolyn?</strong>
               </h2>
             </div>
           </div>

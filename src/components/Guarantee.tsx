@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Guarantee() {
   return (
     <>
-      <section className="header3 cid-uhfTGZCgag py-10 text-center" id="header3-7o" style={{ background: '#1098b7' }}>
+      <section className="header3 cid-uhfTGZCgag py-10 text-center" id="header3-7o" style={{ background: '#ec4899' }}>
         <div className="align-center container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-lg-9">
@@ -23,7 +23,7 @@ export default function Guarantee() {
                 <Image 
                   className="w-full h-auto" 
                   src="https://ik.imagekit.io/affin/money-back-guarantee.webp?updatedAt=1765361274891" 
-                  alt="Mitolyn-money-back-guarantee" 
+                  alt="mitolyn-money-back-guarantee" 
                   width={600} 
                   height={600}
                   style={{ 
@@ -42,8 +42,8 @@ export default function Guarantee() {
                   <strong>90-Day Money-Back Promise</strong>
                 </h3>
                 <p className="text-base md:text-lg lg:text-xl leading-relaxed mb-6" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                  Mitolyn comes with a comprehensive 90-day satisfaction guarantee. Mitolyn's commitment to your success means that if you don't notice the difference—whether it's renewed energy, smoother metabolism, or improved overall wellness—you can simply reach out within 90 days for a prompt and courteous refund, no questions asked. <br /><br />
-                  Mitolyn offers exclusive limited-time pricing when you order today from the official website. Mitolyn provides major savings on this best-selling metabolic support formula, allowing you to start your journey toward balanced energy, confidence, and lasting well-being at an exceptional value.
+                  Mitolyn includes a complete 90-day satisfaction promise. Mitolyn's dedication to your achievement means that if you don't experience the change—whether it's restored vitality, more efficient metabolism, or enhanced general health—you can simply contact us within 90 days for a quick and polite refund, no questions asked. <br /><br />
+                  Mitolyn provides special limited-time pricing when you order today from the official website. Mitolyn delivers significant savings on this top-selling metabolic support formula, enabling you to begin your path toward harmonious energy, self-assurance, and sustained wellness at an outstanding value.
                 </p>
                 <div className="mt-6">
                   <a 

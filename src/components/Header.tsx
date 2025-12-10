@@ -31,7 +31,7 @@ export default function Header() {
 
   return (
     <section className="menu menu2 cid-tB0YZQqaCG" id="menu2-0">
-      <nav className="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg relative" style={{ backgroundColor: '#667eea', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', zIndex: 1000 }}>
+      <nav className="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg relative" style={{ backgroundColor: '#0ea5e9', background: 'linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #14b8a6 100%)', zIndex: 1000 }}>
         <div className="container mx-auto px-3 sm:px-4">
           <div className="flex items-center justify-between w-full relative">
             <div className="navbar-brand flex-shrink-0 z-50 relative">
@@ -39,7 +39,7 @@ export default function Header() {
                 <Link href="/" onClick={() => setIsOpen(false)}>
                   <Image 
                     src="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" 
-                    alt="Mitolyn official website" 
+                    alt="mitolyn official website" 
                     width={485} 
                     height={94}
                     className="h-8 sm:h-10 md:h-12 w-auto max-w-[200px] sm:max-w-[250px] md:max-w-none"
@@ -129,7 +129,7 @@ export default function Header() {
 
             {/* Mobile Menu */}
             <div 
-              className={`md:hidden fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-gradient-to-b from-purple-700 to-purple-800 shadow-2xl transform transition-transform duration-300 ease-in-out z-[1000] ${
+              className={`md:hidden fixed top-0 right-0 h-full w-80 max-w-[85vw] bg-gradient-to-b from-cyan-700 to-teal-800 shadow-2xl transform transition-transform duration-300 ease-in-out z-[1000] ${
                 isOpen ? 'translate-x-0' : 'translate-x-full'
               }`}
               id="navbarSupportedContent"

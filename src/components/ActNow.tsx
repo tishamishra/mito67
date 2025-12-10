@@ -3,18 +3,18 @@ import Image from 'next/image';
 export default function ActNow() {
   return (
     <>
-      <section className="header10 cid-uwzIBlzE5e py-12 text-center" id="header10-w" style={{ background: '#1098b7' }}>
+      <section className="header10 cid-uwzIBlzE5e py-12 text-center" id="header10-w" style={{ background: '#ec4899' }}>
         <div className="align-center container-fluid mx-auto px-4">
           <div className="row justify-center">
             <div className="col-md-12 col-lg-9">
               <h3 className="mbr-section-title mbr-fonts-style mb-3 display-2 text-2xl md:text-3xl lg:text-4xl font-bold text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
-                Don't Wait Any Longer! Limited Time Deal - Mitolyn Sale Live
+                Don't Wait Any Longer! Limited Time Deal - mitolyn Sale Live
               </h3>
               <div className="image-wrap mt-4">
                 <img 
                   src="https://ik.imagekit.io/affin/mitolyn-buy-480x451.webp?updatedAt=1765361274874" 
-                  alt="buy Mitolyn" 
-                  title="Mitolyn"
+                  alt="buy mitolyn" 
+                  title="mitolyn"
                   className="w-full max-w-2xl mx-auto"
                   style={{ 
                     maxWidth: '100%', 

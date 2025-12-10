@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Privacy Policy | Mitolyn Official',
-  description: 'Mitolyn official privacy policy. Learn how we collect, use, and protect your personal information on the official Mitolyn USA website.',
-  keywords: 'mitolyn privacy policy, mitolyn official privacy, mitolyn usa privacy',
+  title: 'Privacy Policy | mitolyn Official',
+  description: 'mitolyn official privacy policy. Learn how we collect, use, and protect your personal information on the official mitolyn store website.',
+  keywords: 'mitolyn privacy policy, mitolyn official privacy, mitolyn store privacy',
   alternates: {
-    canonical: 'https://mtolyn-us.us/privacy-policy',
+    canonical: 'https://mtolyn.store/privacy-policy',
   },
 };
 

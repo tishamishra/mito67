@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Terms & Conditions | Mitolyn Official',
-  description: 'Mitolyn official terms and conditions. Read the rules and regulations for using the Mitolyn USA official website.',
-  keywords: 'mitolyn terms, mitolyn official terms, mitolyn usa terms',
+  title: 'Terms & Conditions | mitolyn Official',
+  description: 'mitolyn official terms and conditions. Read the rules and regulations for using the mitolyn store official website.',
+  keywords: 'mitolyn terms, mitolyn official terms, mitolyn store terms',
   alternates: {
-    canonical: 'https://mtolyn-us.us/terms',
+    canonical: 'https://mtolyn.store/terms',
   },
 };
 
@@ -27,7 +27,7 @@ export default function Terms() {
 
             <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Acceptance of Terms</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Mitolyn's Terms and Conditions constitute a legally binding agreement between you and Mitolyn. Mitolyn requires that you accept these terms by accessing or using our website. Mitolyn reserves the right to modify these terms at any time, and your continued use of our website constitutes acceptance of any changes. Mitolyn encourages you to review these terms regularly to stay informed of updates.
+              Mitolyn's Terms and Conditions constitute a legally binding agreement between you and mitolyn. Mitolyn requires that you accept these terms by accessing or using our website. Mitolyn reserves the right to modify these terms at any time, and your continued use of our website constitutes acceptance of any changes. Mitolyn encourages you to review these terms regularly to stay informed of updates.
             </p>
 
             <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Use of Website</h2>
@@ -37,7 +37,7 @@ export default function Terms() {
 
             <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Product Orders and Pricing</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Mitolyn makes every effort to display accurate product information and pricing on our website. Mitolyn reserves the right to correct any errors in pricing or product information, even after an order has been placed. Mitolyn may refuse or cancel any order at our discretion, including orders that appear to be placed by dealers, resellers, or distributors. Mitolyn's prices are subject to change without notice, and Mitolyn is not obligated to honor prices that are clearly incorrect due to typographical errors.
+              Mitolyn makes every effort to display accurate product information and pricing on our website. Mitolyn reserves the right to correct any errors in pricing or product information, even after an order has been placed. Mitolyn may refuse or cancel any order at our discretion, including orders that appear to be placed by dealers, resellers, or distributors. Mitolyn's prices are subject to change without notice, and mitolyn is not obligated to honor prices that are clearly incorrect due to typographical errors.
             </p>
 
             <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Payment Terms</h2>
@@ -67,7 +67,7 @@ export default function Terms() {
 
             <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Governing Law</h2>
             <p className="text-base md:text-lg mb-6 leading-relaxed">
-              Mitolyn's Terms and Conditions are governed by the laws of the jurisdiction in which Mitolyn operates. Mitolyn requires that any disputes arising from these terms be resolved through binding arbitration or in the appropriate courts of that jurisdiction. Mitolyn reserves the right to seek injunctive relief in any court of competent jurisdiction.
+              Mitolyn's Terms and Conditions are governed by the laws of the jurisdiction in which mitolyn operates. Mitolyn requires that any disputes arising from these terms be resolved through binding arbitration or in the appropriate courts of that jurisdiction. Mitolyn reserves the right to seek injunctive relief in any court of competent jurisdiction.
             </p>
 
             <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-4" style={{ color: '#1098b7' }}>Contact Information</h2>
