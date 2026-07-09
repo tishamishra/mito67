@@ -55,6 +55,11 @@ export default function Footer() {
                         mitolyn Price
                       </Link>
                     </li>
+                    <li>
+                      <a href="https://www.affinsight.com/offers/mitolyn-a-dietary-supplement" target="_blank" rel="noopener" className="text-white hover:text-yellow-400 transition-colors text-lg md:text-xl">
+                        mitolyn Offer on Affinsight
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -70,7 +75,7 @@ export default function Footer() {
               <p className="text-sm md:text-base leading-relaxed text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
                 <strong>FDA Compliance</strong><br />
                 All content and information found on this page are for informational purposes only and are not intended to diagnose, treat, cure or prevent any disease. The FDA hasn't evaluated the statements provided on this page. Make sure you consult with a licensed doctor before taking any supplement or making any changes to your diet or exercise plan. Individual results may vary.<br /><br />
-                The display of third-party trademarks and trade names on this site does not necessarily indicate any affiliation or endorsements of our website. If you click a merchant link and buy a product or service on their website, we may be paid a fee by the merchant.
+                The display of third-party trademarks and trade names on this site does not necessarily indicate any affiliation or endorsements of our website. If you click a merchant link and buy a product or service on their website, we may be paid a fee by the merchant. This mitolyn offer is also listed and reviewed on <a href="https://www.affinsight.com/offers/mitolyn-a-dietary-supplement" target="_blank" rel="noopener" className="text-yellow-400 hover:text-yellow-500 transition-colors font-medium">Affinsight</a>, where you can find additional offer details.
               </p>
             </div>
           </div>
